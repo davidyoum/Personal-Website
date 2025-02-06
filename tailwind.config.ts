@@ -14,7 +14,8 @@ export default {
       },
       fontFamily: {
         sans: ['var(--font-figtree)', 'sans'],
-        sfpro: ['var(--font-sfpro)', 'sans']
+        sfpro: ['var(--font-sfpro)', 'sans'],
+        instrument: ['var(--font-instrument)', 'sans'],
       }
     },
   },

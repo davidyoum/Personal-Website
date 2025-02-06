@@ -1,3 +1,6 @@
+import Footer from "../components/footer";
+import Image from "next/image";
+
 export default function Thorlabs() {
     return (
       <div className="min-h-screen">
@@ -28,7 +31,7 @@ export default function Thorlabs() {
           <div className="w-full sm:w-[1200px]">
             <div className="w-full h-[60vh] relative rounded-lg overflow-hidden">
               <img 
-                src="/images/thorlabs-website.png" 
+                src="/images/thorlabs/thorlabs-website.png" 
                 alt="Thorlabs Banner" 
                 className="absolute inset-0 w-full h-full object-cover object-center" 
               />
@@ -42,38 +45,98 @@ export default function Thorlabs() {
           <div className="w-full lg:w-1/3 space-y-8">
             <div className="lg:sticky lg:top-0 lg:backdrop-blur-sm py-8 lg:-mx-8 lg:px-8">
               <h1 className="text-4xl sm:text-6xl font-bold mb-4">Thorlabs</h1>
-              <h2 className="text-xl sm:text-2xl mb-8">Software Engineer</h2>
-              <p className="text-base sm:text-lg text-gray-600">
-                Detailed description of the project and role goes here...
-              </p>
+              <h2 className="text-xl sm:text-2xl mb-8">Web Developer Intern</h2>
+              <div className="text-base font-instrument sm:text-lg text-gray-600">
+                <div>
+                  <h3 className="text-gray-600">Description</h3>
+                  <div className="text-white">
+                    Built components for an updated website for the Mobile Lab Team and 
+                    created a internal tool to change the website's content.
+                  </div>
+
+                  <h3 className="text-gray-600">Client</h3>
+                  <div className="text-white">
+                    Mobile Lab Team
+                  </div>
+
+                  <h3 className="text-gray-600">Time</h3>
+                  <div className="text-white">
+                    May 2024 - August 2024
+                  </div>
+
+                  <h3 className="text-gray-600">Technologies</h3>
+                  <div className="text-white">
+                    Vue.js, TypeScript, ColdFusion, SQL, JSON
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
           {/* Right column - Cards and content */}
           <div className="w-full lg:w-2/3 space-y-16">
-            <div className="aspect-video bg-[#2a2a2a] rounded-lg overflow-hidden">
-              {/* Feature card content */}
+            <div>
+              <div className="aspect-video bg-[#2a2a2a] rounded-lg overflow-hidden">
+                <Image src="/images/thorlabs/dropdown.png" width={1000} height={1000} alt="Thorlabs Website" />
+              </div>
+              <p className="mt-4 text-gray-300 text-lg">
+                Utilizing Bootstrap, created a accordian dropdown for the FAQ sections. Passing data through using JSON.
+              </p>
             </div>
             
-            <div className="aspect-video bg-[#2a2a2a] rounded-lg overflow-hidden">
-              {/* Feature card content */}
+            <div>
+              <div className="aspect-video bg-[#2a2a2a] rounded-lg overflow-hidden">
+                <Image src="/images/thorlabs/timeline.png" width={1000} height={1000} alt="Thorlabs Website" />
+              </div>
+              <p className="mt-4 text-gray-300 text-lg">
+                Created a dynamic timeline using svg lines and allowing for the user to add events to the timeline adjusting the svg lines accordingly.
+              </p>
+            </div>
+
+            <div>
+              <div className="aspect-video bg-[#2a2a2a] rounded-lg overflow-hidden">
+                <Image src="/images/thorlabs/figma.png" width={1000} height={1000} alt="Thorlabs Website" />
+              </div>
+              <p className="mt-4 text-gray-300 text-lg">
+                Used Figma to start a new design for the internal tool (Dont have the actual picture). 
+                Created a sleek desgin using Vue.js and Tailwind CSS. Allowed non-technical users to update the website.
+                Saving the data to a SQL database and pulling it to the website using ColdFusion.
+                Also creating documentation for the non-technical users on how to use the tool.
+              </p>
+            </div>
+
+
+            <div>
+              <div className="aspect-video bg-[#2a2a2a] rounded-lg overflow-hidden">
+                <Image src="/images/thorlabs/events.gif" width={1000} height={1000} alt="Thorlabs Website" />
+              </div>
+              <p className="mt-4 text-gray-300 text-lg">
+                Created a filter component to filter through the events and images. Came up with the accordian to hide the past events. Used Bootstrap buttons and CSS to style the buttons and other components.
+              </p>
+            </div>
+
+            <div>
+              <div className="aspect-video bg-[#2a2a2a] rounded-lg overflow-hidden">
+                <Image src="/images/thorlabs/bubble_text.png" width={1000} height={1000} alt="Thorlabs Website" />
+              </div>
+              <p className="mt-4 text-gray-300 text-lg">
+                Created a simple bubble text component to display the key points in a more engaging way.
+              </p>
+            </div>
+
+            <div>
+              <div className="aspect-video bg-[#2a2a2a] rounded-lg overflow-hidden">
+                <Image src="/images/thorlabs/card.png" width={1000} height={1000} alt="Thorlabs Website" />
+              </div>
+              <p className="mt-4 text-gray-300 text-lg">
+                Created a card component to display the information in a more engaging way.
+                Following the guidlines of the design communicated by the design team.
+              </p>
             </div>
             
-            <div className="aspect-video bg-[#2a2a2a] rounded-lg overflow-hidden">
-              {/* Feature card content */}
-            </div>
-            <div className="aspect-video bg-[#2a2a2a] rounded-lg overflow-hidden">
-              {/* Feature card content */}
-            </div>
-            <div className="aspect-video bg-[#2a2a2a] rounded-lg overflow-hidden">
-              {/* Feature card content */}
-            </div>
-            <div className="aspect-video bg-[#2a2a2a] rounded-lg overflow-hidden">
-              {/* Feature card content */}
-            </div>
-            {/* Additional content sections */}
           </div>
         </div>
+        <Footer />
       </div>
     );
 }

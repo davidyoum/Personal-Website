@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState } from "react";
+import React from "react";
 import NavigationBar from "./components/navigationbar";
 import Image from "next/image";
 import WorkCard from "./components/work-card";
@@ -34,7 +34,8 @@ export default function Home() {
                 alt="Thorlabs Logo" 
                 width={105}
                 height={105}
-                className="inline-block align-middle mb-1 mx-1" 
+                className="inline-block align-middle mb-1 mx-1"
+                style={{ width: 'auto', height: 'auto' }}
               />.
             </div>
           </div>
@@ -53,12 +54,36 @@ export default function Home() {
 
         <div>
           <div className="w-full mx-auto mt-32 items-center">
-            
+            <div className="w-5/6 mx-auto text-5xl mb-4">Experience</div>
+            <div className="flex w-full h-44 border-t-[1px] border-b-[1px] hover:bg-[#93d2fe]">
+              <a className="flex w-11/12 md:w-5/6 mx-auto mt-10 mb-10 group items-center justify-between">
+                <WorkCard 
+                  title="Website Overhaul - Coming Soon"
+                  subtitle={{
+                    company: "Penn State ACM",
+                    time: "2025",
+                    description: "E"
+                  }}
+                  image="https://via.placeholder.com/300"
+                  link="https://example.com"
+                />
+                <Image 
+                  src="/images/acm/acm-web.png"
+                  width={500}
+                  height={500}
+                  alt="ACM Website Preview"
+                  className="rounded-md opacity-0 group-hover:opacity-100 duration-300 hidden 2xl:block
+                    lg:w-[450px]
+                    xl:w-[500px]
+                    sm:hover:scale-95 transition-transform"
+                  style={{ width: 'auto', height: 'auto' }}
+                />
+              </a>
+            </div>
+
             <div className="flex w-full h-44 border-t-[1px] border-b-[1px] hover:bg-[#E51B24]">
-              <a
-                className="flex w-3/4 mx-auto group space-x-10 items-center justify-between"
-                href="/thorlabs"
-              >
+              <a className="flex w-11/12 md:w-5/6 mx-auto mt-10 mb-10 group items-center justify-between"
+                href="/thorlabs">
                 <WorkCard 
                   title="Mobile Lab Website and Internal Tool"
                   subtitle={{
@@ -69,43 +94,48 @@ export default function Home() {
                   image="https://via.placeholder.com/300"
                   link="https://example.com"
                 />
-
                 <Image 
                   src="/images/thorlabs-website.png"
                   width={500}
                   height={500}
                   alt="Thorlabs Website Preview"
-                  className="rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden lg:block"
+                  className="rounded-md opacity-0 group-hover:opacity-100 duration-300 hidden 2xl:block
+                    lg:w-[450px]
+                    xl:w-[500px]
+                    sm:hover:scale-95 transition-transform"
+                  style={{ width: 'auto', height: 'auto' }}
                 />
               </a>
             </div>
+          </div>
 
-            <div className="flex w-full h-44 border-t-[1px] border-b-[1px] hover:bg-[#E51B24]">
-              <a
-                className="flex w-3/4 mx-auto group space-x-10 items-center justify-between"
-                href="/thorlabs"
-              >
+          <div className="w-full mx-auto mt-32 items-center">
+            <div className="w-5/6 mx-auto text-5xl mb-4">Projects</div>
+            <div className="flex w-full h-44 border-t-[1px] border-b-[1px] hover:bg-[#57ec31]">
+              <a className="flex w-11/12 md:w-5/6 mx-auto mt-10 mb-10 group items-center justify-between">
                 <WorkCard 
-                  title="Mobile Lab Website and Internal Tool"
+                  title="The Pickup Sports Finder - Coming Soon"
                   subtitle={{
-                    company: "Thorlabs",
+                    company: "Tally Sports",
                     time: "2024",
                     description: "E"
                   }}
                   image="https://via.placeholder.com/300"
                   link="https://example.com"
                 />
-
                 <Image 
-                  src="/images/thorlabs-website.png"
+                  src="/images/tally.gif"
                   width={500}
                   height={500}
-                  alt="Thorlabs Website Preview"
-                  className="rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden lg:block"
+                  alt="Tally Sports Preview"
+                  className="rounded-md opacity-0 group-hover:opacity-100 duration-300 hidden 2xl:block
+                    lg:w-[450px]
+                    xl:w-[500px]
+                    sm:hover:scale-95 transition-transform"
+                  style={{ width: 'auto', height: 'auto' }}
                 />
               </a>
             </div>
-
           </div>
           <Footer />
         </div>

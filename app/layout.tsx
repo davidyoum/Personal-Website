@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import { Figtree } from "next/font/google";
+import { Figtree, Instrument_Sans } from "next/font/google";
 import localFont from 'next/font/local'
 import "./globals.css";
+
 
 const figtree = Figtree({
   variable: "--font-figtree",
@@ -22,6 +23,17 @@ const sfpro = localFont({
   variable: '--font-sfpro'
 });
 
+const instrument = Instrument_Sans({
+  variable: '--font-instrument',
+  subsets: ['latin'],
+  display: 'swap',
+  weight: ['400', '500', '600', '700'],
+  adjustFontFallback: false,
+});
+
+
+
+
 export const metadata: Metadata = {
   title: "David Youm",
   description: "My space of the internet",
@@ -33,7 +45,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${figtree.variable} ${sfpro.variable}`} suppressHydrationWarning>
+    <html lang="en" className={`${figtree.variable} ${sfpro.variable} ${instrument.variable}`} suppressHydrationWarning>
       <body suppressHydrationWarning>
         {children}
       </body>
