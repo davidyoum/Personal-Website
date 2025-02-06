@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Figtree, Instrument_Sans } from "next/font/google";
+import { Figtree, Instrument_Sans, Inter } from "next/font/google";
 import localFont from 'next/font/local'
 import "./globals.css";
 
@@ -12,11 +12,13 @@ const figtree = Figtree({
   adjustFontFallback: false,
 });
 
-const sfpro = localFont({
-  src: '/fonts/sfpro-font.otf',
-  variable: '--font-sfpro'
+const inter = Inter({
+  variable: '--font-inter',
+  subsets: ['latin'],
+  display: 'swap',
+  weight: ['400', '500', '600', '700'],
+  adjustFontFallback: false,
 });
-
 
 const instrument = Instrument_Sans({
   variable: '--font-instrument',
@@ -37,7 +39,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${figtree.variable} ${sfpro.variable} ${instrument.variable}`} suppressHydrationWarning>
+    <html lang="en" className={`${figtree.variable} ${inter.variable} ${instrument.variable}`} suppressHydrationWarning>
       <body suppressHydrationWarning>
         {children}
       </body>

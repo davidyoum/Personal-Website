@@ -9,7 +9,7 @@ export default function NavigationBar() {
 
     return (
       <div suppressHydrationWarning>
-        <div className="flex mt-5 justify-between items-center w-3/4 mx-auto">
+        <div className="flex mt-5 font-inter justify-between items-center w-3/4 mx-auto">
           <div>
               <div className="hidden sm:block font-sans text-xl">
                   David Youm
@@ -20,14 +20,12 @@ export default function NavigationBar() {
           </div>
   
           {/* Desktop Navigation */}
-          <div className=" space-x-12">
+          <div className="space-x-12">
               <Link href="/">Work</Link>
               <Link href="/about">About</Link>
           </div>
   
           <div className="inline-flex space-x-6">
-              {/* Resume button - hide on mobile */}
-              
               <a href="https://drive.google.com/file/d/1_cMfKfDFl3s3EmWlwMnwqqLlHVfw3yZj/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="hidden md:flex items-center gap-2">
                   Resume
                   <Image 
