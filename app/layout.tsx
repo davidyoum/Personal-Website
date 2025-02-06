@@ -1,6 +1,5 @@
-import type { Metadata } from "next";
 import { Figtree, Instrument_Sans, Inter } from "next/font/google";
-import localFont from 'next/font/local'
+import { Analytics } from "@vercel/analytics/react"
 import "./globals.css";
 
 
@@ -42,6 +41,7 @@ export default function RootLayout({
     <html lang="en" className={`${figtree.variable} ${inter.variable} ${instrument.variable}`} suppressHydrationWarning>
       <body suppressHydrationWarning>
         {children}
+        <Analytics />
       </body>
     </html>
   );
