@@ -31,7 +31,7 @@ export default function Home() {
             <div>
               Based out of New Jersey, previous intern at 
               <Image 
-                src="/images/thorlabs-logo.png" 
+                src="/images/thorlabs/thorlabs-logo.png" 
                 alt="Thorlabs Logo" 
                 width={105}
                 height={105}
@@ -96,7 +96,7 @@ export default function Home() {
                   link="https://example.com"
                 />
                 <Image 
-                  src="/images/thorlabs-website.png"
+                  src="/images/thorlabs/thorlabs-website.png"
                   width={500}
                   height={500}
                   alt="Thorlabs Website Preview"
