@@ -13,15 +13,10 @@ const figtree = Figtree({
 });
 
 const sfpro = localFont({
-  src: [
-    {
-      path: '../public/fonts/sfpro-font.otf',
-      weight: '400',
-      style: 'normal',
-    }
-  ],
+  src: '/fonts/sfpro-font.otf',
   variable: '--font-sfpro'
 });
+
 
 const instrument = Instrument_Sans({
   variable: '--font-instrument',
