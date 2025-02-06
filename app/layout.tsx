@@ -1,6 +1,7 @@
 import { Figtree, Instrument_Sans, Inter } from "next/font/google";
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
+
 
 
 const figtree = Figtree({
