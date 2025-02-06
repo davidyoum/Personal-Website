@@ -31,13 +31,10 @@ const instrument = Instrument_Sans({
   adjustFontFallback: false,
 });
 
-
-
-
-export const metadata: Metadata = {
-  title: "David Youm",
-  description: "My space of the internet",
-};
+export const metadata = {
+  title: 'David Youm',
+  description: 'David Youm Portfolio Website',
+}
 
 export default function RootLayout({
   children,

@@ -141,11 +141,5 @@ export default function Home() {
         </div>
       </div>
     </div>
-
   );
-}
-
-export const metadata = {
-  title: 'David Youm',
-  description: 'David Youm Portfolio Website',
 }
