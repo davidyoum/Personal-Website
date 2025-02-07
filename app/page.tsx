@@ -24,9 +24,7 @@ export default function Home() {
         <div className="w-3/4 font-inter text-2xl sm:text-center mx-auto pt-[11vh]">
           <div className="space-y-4">
             <div>
-              A full-stack developer creating the best products for specific or everyday use. 
-
-              I am a avid gamer, car detailer, and snowboarder.
+            A full-stack developer creating the best products for specific or everyday use. I am an avid gamer, car detailer, and snowboarder.
             </div>
             <div>
               Based out of New Jersey, previous intern at 

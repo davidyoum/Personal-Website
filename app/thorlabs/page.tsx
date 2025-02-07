@@ -80,7 +80,7 @@ export default function Thorlabs() {
                 <Image src="/images/thorlabs/dropdown.png" width={1000} height={1000} alt="Thorlabs Website" />
               </div>
               <p className="mt-4 text-gray-300 text-lg">
-                Utilizing Bootstrap, created a accordian dropdown for the FAQ sections. Passing data through using JSON.
+                Utilizing Bootstrap, created an accordian dropdown for the FAQ sections. Passing data through using JSON.
               </p>
             </div>
             
@@ -89,8 +89,7 @@ export default function Thorlabs() {
                 <Image src="/images/thorlabs/timeline.png" width={1000} height={1000} alt="Thorlabs Website" />
               </div>
               <p className="mt-4 text-gray-300 text-lg">
-                Created a dynamic timeline using svg lines and allowing for the user to add events to the timeline adjusting the svg lines accordingly.
-              </p>
+                Created a dynamic timeline using SVG lines and allowed the user to add events to the timeline adjusting the SVG lines accordingly.              </p>
             </div>
 
             <div>
@@ -98,10 +97,10 @@ export default function Thorlabs() {
                 <Image src="/images/thorlabs/figma.png" width={1000} height={1000} alt="Thorlabs Website" />
               </div>
               <p className="mt-4 text-gray-300 text-lg">
-                Used Figma to start a new design for the internal tool (Dont have the actual picture). 
-                Created a sleek desgin using Vue.js and Tailwind CSS. Allowed non-technical users to update the website.
-                Saving the data to a SQL database and pulling it to the website using ColdFusion.
-                Also creating documentation for the non-technical users on how to use the tool.
+              Used Figma to start a new design for the internal tool (Dont have the actual picture). 
+              Created a sleek design using Vue.js and Tailwind CSS. Allowed non-technical users to update the website.
+              Saving the data to a SQL database and pulling it to the website using ColdFusion.
+              Also creating documentation for the non-technical users on how to use the tool.
               </p>
             </div>
 
@@ -111,7 +110,7 @@ export default function Thorlabs() {
                 <Image src="/images/thorlabs/events.gif" width={1000} height={1000} alt="Thorlabs Website" />
               </div>
               <p className="mt-4 text-gray-300 text-lg">
-                Created a filter component to filter through the events and images. Came up with the accordian to hide the past events. Used Bootstrap buttons and CSS to style the buttons and other components.
+                Created a filter component to filter through the events and images. Came up with the accordion to hide the past events. Used Bootstrap buttons and CSS to style the buttons and other components.
               </p>
             </div>
 
@@ -120,7 +119,7 @@ export default function Thorlabs() {
                 <Image src="/images/thorlabs/bubble_text.png" width={1000} height={1000} alt="Thorlabs Website" />
               </div>
               <p className="mt-4 text-gray-300 text-lg">
-                Created a simple bubble text component to display the key points in a more engaging way.
+                Created a simple bubble text component to display the key points more engagingly.
               </p>
             </div>
 
@@ -130,7 +129,7 @@ export default function Thorlabs() {
               </div>
               <p className="mt-4 text-gray-300 text-lg">
                 Created a card component to display the information in a more engaging way.
-                Following the guidlines of the design communicated by the design team.
+                Following the guidelines of the design communicated by the design team.
               </p>
             </div>
             

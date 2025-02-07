@@ -25,12 +25,12 @@ export default function About() {
           </div>
 
           <div className="mt-3 font-instrument text-center">
-            My coding journey started when I was in elementary school working on my first Roblox game. Sadly, at the time I didnt know documentation and other resources were available so stopped afterwards.
-            In Sparta High School, I took computer science classes and my intrest grew with the help of a amazing teacher.
+          My coding journey started when I was in elementary school working on my first Roblox game. Sadly, at the time I didn't know documentation and other resources were available so stopped afterward. In Sparta High School, I took computer science classes and my interest grew with the help of an amazing teacher.
+          From there, I went on to learn Python and Java in class while self-teaching myself C++. Then, the rest was history with college studying at Penn State University.
           </div>
 
           <div className="mt-8 font-instrument text-center">
-            From there, I went on to learn Python and Java in class while self teaching myself C++. 
+            From there, I went on to learn Python and Java in class while self-teaching myself C++. 
             Then, the rest was history with college studying at Penn State University.
           </div>
 
