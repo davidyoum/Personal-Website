@@ -72,10 +72,9 @@ export default function Home() {
                   height={500}
                   alt="ACM Website Preview"
                   className="rounded-md opacity-0 group-hover:opacity-100 duration-300 hidden 2xl:block
-                    lg:w-[450px]
-                    xl:w-[500px]
+                    w-[500px] h-[280px]
                     sm:hover:scale-95 transition-transform"
-                  style={{ width: 'auto', height: 'auto' }}
+                  style={{ objectFit: 'cover' }}
                 />
               </a>
             </div>
@@ -99,10 +98,9 @@ export default function Home() {
                   height={500}
                   alt="Thorlabs Website Preview"
                   className="rounded-md opacity-0 group-hover:opacity-100 duration-300 hidden 2xl:block
-                    lg:w-[450px]
-                    xl:w-[500px]
+                    w-[500px] h-[280px]
                     sm:hover:scale-95 transition-transform"
-                  style={{ width: 'auto', height: 'auto' }}
+                  style={{ objectFit: 'cover' }}
                 />
               </a>
             </div>
@@ -128,10 +126,9 @@ export default function Home() {
                   height={500}
                   alt="Tally Sports Preview"
                   className="rounded-md opacity-0 group-hover:opacity-100 duration-300 hidden 2xl:block
-                    lg:w-[450px]
-                    xl:w-[500px]
+                    w-[500px] h-[280px]
                     sm:hover:scale-95 transition-transform"
-                  style={{ width: 'auto', height: 'auto' }}
+                  style={{ objectFit: 'cover' }}
                 />
               </a>
             </div>
