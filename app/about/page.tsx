@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function About() {
     return (
-      <div>
+      <div className="w-3/4 mx-auto">
         <NavigationBar />
         <div className="flex flex-col w-[80%] mx-auto items-center mt-12">
           <Image 
