@@ -21,10 +21,10 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="w-3/4 font-inter text-2xl sm:text-center mx-auto pt-[11vh]">
+        <div className="w-3/5 font-inter text-2xl sm:text-center mx-auto pt-[11vh]">
           <div className="space-y-4">
             <div>
-            A full-stack developer creating the best products for specific or everyday use. I am an avid gamer, car detailer, and snowboarder.
+              Hi, I'm David — a full-stack developer crafting end-to-end web experiences. I am an avid gamer, Tottenham Hotspur fan (mostly Son), and snowboarder.
             </div>
             <div>
               Based out of New Jersey, previous intern at 

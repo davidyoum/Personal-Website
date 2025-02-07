@@ -51,7 +51,7 @@ export default function Thorlabs() {
                   <h3 className="text-gray-600">Description</h3>
                   <div className="text-white">
                     Built components for an updated website for the Mobile Lab Team and 
-                    created a internal tool to change the website's content.
+                    created an internal tool to change the website's content.
                   </div>
 
                   <h3 className="text-gray-600">Client</h3>
